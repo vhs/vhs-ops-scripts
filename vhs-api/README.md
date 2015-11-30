@@ -12,8 +12,8 @@ when docker is restarted. The image is built in docker hub automatically, source
 ## Starting and Stopping
 
 ```bash
-$ docker stop vhs_api
-$ docker start vhs_api
+$ docker stop vhs-api
+$ docker start vhs-api
 ```
 
 Kill can be used instead of stop 
@@ -23,8 +23,8 @@ Once it's running influx will listen to the default ports 8083 and 8086
 ## Updating
 
 ```bash
-$ docker stop vhs_api
-$ docker rm vhs_api
+$ docker stop vhs-api
+$ docker rm vhs-api
 $ docker pull vanhack/api
 $ ./create.sh
 ```
