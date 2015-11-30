@@ -4,18 +4,25 @@ Docker container for Grafana
 
 ## Installing
 
-Run create.sh then symlink (or copy) the upstart.conf to /etc/init. Since the upstart job is a symlink you will have to manually
-reload the upstart config
-
-```bash
-$ ./create.sh
-$ ln -s <path>/upstart.conf /etc/init/grafana.conf
-$ initctl reload-configuration
-```
+Run create.sh. This will create a docker container and run it. By default it will restart automatically
+when docker is restarted.
 
 ## Starting and Stopping
 
 ```bash
-$ start grafana
-$ stop grafana
+$ docker stop grafana
+$ docker start grafana
+```
+
+Kill can be used instead of stop 
+
+Once it's running influx will listen to the default port 3000
+
+## Updating
+
+```bash
+$ docker stop grafana
+$ docker rm grafana
+$ docker pull grafana/grafana
+$ ./create.sh
 ```
