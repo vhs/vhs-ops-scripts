@@ -4,9 +4,9 @@ Just a collection of scripts used by VHS for operations
 
 # Notes
 
-#### Updating Discourse (https://talk.hackspace.ca)
+#### Updating Discourse (https://talk.vanhack.ca)
 
-To update the Discourse software for talk.hackspace.ca, ssh into talk.hackspace.ca do the following steps as root:
+To update the Discourse software for talk.vanhack.ca, ssh into talk.vanhack.ca do the following steps as root:
 
     cd /var/discourse
     git pull
