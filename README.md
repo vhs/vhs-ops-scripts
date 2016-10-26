@@ -6,6 +6,10 @@ Just a collection of scripts used by VHS for operations
 
 #### Updating Discourse (https://talk.vanhack.ca)
 
+Normally go to https://talk.vanhack.ca/admin/upgrade to upgrade.
+
+If anything bad[TM] happens and running the upgrade procedure again does not work, use these instructions:
+
 To update the Discourse software for talk.vanhack.ca, ssh into talk.vanhack.ca do the following steps as root:
 
     cd /var/discourse
