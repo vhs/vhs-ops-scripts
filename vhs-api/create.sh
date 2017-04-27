@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker pull vanhack/api
+
 docker stop vhs-api
 docker rm vhs-api
 
