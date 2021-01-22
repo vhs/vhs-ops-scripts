@@ -1,6 +1,6 @@
 # VHS Ops Scripts
 
-Just a collection of scripts used by VHS for operations
+Obsoleted by the new (web services)[https://github.com/vhs/web-services]
 
 # Notes
 
