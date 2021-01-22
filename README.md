@@ -1,6 +1,6 @@
 # VHS Ops Scripts
 
-Obsoleted by the new (web services)[https://github.com/vhs/web-services]
+Obsoleted by the new [web services](https://github.com/vhs/web-services)
 
 # Notes
 
